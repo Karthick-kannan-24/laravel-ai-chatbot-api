@@ -1,0 +1,127 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "laravel-ai-chatbot",
+        "description": "Laravel autogenerate swagger",
+        "termsOfService": "http:\/\/swagger.io\/terms\/",
+        "contact": {
+            "email": "hussein4alaa@gmail.com"
+        },
+        "license": {
+            "name": "Github",
+            "url": "https:\/\/github.com\/hussein4alaa"
+        },
+        "version": "3.0.7"
+    },
+    "servers": [
+        {
+            "url": "http:\/\/127.0.0.1:8000",
+            "description": "localhost"
+        }
+    ],
+    "components": {
+        "tags": [
+            {
+                "name": "Chat",
+                "description": null
+            }
+        ],
+        "paths": {
+            "\/api\/chat": {
+                "post": {
+                    "tags": [
+                        "Chat"
+                    ],
+                    "summary": "chat",
+                    "description": "",
+                    "operationId": "_api_chat_POST",
+                    "parameters": [],
+                    "responses": [],
+                    "requestBody": {
+                        "description": "",
+                        "content": {
+                            "multipart\/form-data": {
+                                "schema": {
+                                    "$ref": "#\/components\/schemas\/ChatChat"
+                                }
+                            },
+                            "application\/json": {
+                                "schema": {
+                                    "$ref": "#\/components\/schemas\/ChatChat"
+                                }
+                            }
+                        },
+                        "required": true
+                    }
+                }
+            }
+        },
+        "schemas": {
+            "ChatChat": {
+                "required": [
+                    "message"
+                ],
+                "type": "object",
+                "properties": {
+                    "message": {
+                        "required": "true",
+                        "type": "string",
+                        "minimum": "2",
+                        "maximum": "1000"
+                    }
+                },
+                "xml": {
+                    "name": "chatchat"
+                }
+            }
+        },
+        "securitySchemes": {
+            "authorization": {
+                "type": "apiKey",
+                "name": "authorization",
+                "in": "header"
+            },
+            "apiKey1": {
+                "type": "apiKey",
+                "name": "key1",
+                "in": "query"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Chat",
+            "description": null
+        }
+    ],
+    "paths": {
+        "\/api\/chat": {
+            "post": {
+                "tags": [
+                    "Chat"
+                ],
+                "summary": "chat",
+                "description": "",
+                "operationId": "_api_chat_POST",
+                "parameters": [],
+                "responses": [],
+                "requestBody": {
+                    "description": "",
+                    "content": {
+                        "multipart\/form-data": {
+                            "schema": {
+                                "$ref": "#\/components\/schemas\/ChatChat"
+                            }
+                        },
+                        "application\/json": {
+                            "schema": {
+                                "$ref": "#\/components\/schemas\/ChatChat"
+                            }
+                        }
+                    },
+                    "required": true
+                }
+            }
+        }
+    }
+}
