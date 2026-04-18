@@ -103,6 +103,6 @@ After completing these steps, Swagger UI will be available at:
 
 
 ## License
-   This project is open-source and available under the MIT License.
+   This project is open-source and available under the `MIT License`.
 
    Made with using Laravel 13 + Groq
