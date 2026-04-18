@@ -6,6 +6,15 @@ Send a message and get intelligent, fast replies powered by Groq's high-speed LL
 
 ---
 
+## Prerequisites
+
+![PHP Version](https://img.shields.io/badge/PHP-%5E8.4.x-blue)
+![Laravel Version](https://img.shields.io/badge/Laravel-%5E13-orange)
+![Powered by Groq](https://img.shields.io/badge/Powered_by-Groq-00A67E?style=flat-square&logo=groq&logoColor=white)
+![Model](https://img.shields.io/badge/Model-Llama_3.1_8B_Instant-FF6B00?style=flat-square)
+![g4t/swagger](https://img.shields.io/badge/Swagger-%5E4.1.x-green)
+
+
 ## Features
 
 - Lightweight & fast Laravel API
@@ -93,14 +102,6 @@ After completing these steps, Swagger UI will be available at:
       }
     }
    ```
-
-## Tech Stack
-
-- Laravel 13
-- Groq API
-- Llama-3.1-8b-instant model
-- g4t/swagger (^4.1)
-
 
 ## License
    This project is open-source and available under the `MIT License`.
