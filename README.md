@@ -220,9 +220,3 @@ Karthick Kannan R
 
 - GitHub: https://github.com/Karthick-kannan-24
 - LinkedIn: https://www.linkedin.com/in/karthick-kannan-2421997/
-
----
-
-# Support
-
-If you found this project helpful, give it a ⭐ on GitHub.
